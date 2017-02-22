@@ -1,0 +1,427 @@
+.clearfix::after,
+#nav::after,
+.logo::after,
+.marmi::after,
+.stroka-price::after,
+.who-we-are::after
+{
+    overflow: : hidden;
+    display: table;
+    content: "";
+    clear: both;
+}
+body
+{
+	background-color: #f2f2f2
+}
+strong
+{
+	color: #000000;
+	font-family: Ubuntu;
+	font-size: 30px;
+	uppercase
+}
+.container
+{
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+/* Section Nav*/
+
+.logo
+{
+	display: inline-block;
+	margin-top: 10px;
+
+}
+.navigation
+{
+	margin: 0;
+	position: fixed;
+	right: 0;
+	top: 200px;
+	transform: rotate(270deg);
+    height: 1.59091rem;
+}
+.button__nav 
+{
+	display: inline;
+	float: right;
+	color: #000;
+	list-style: none;
+	text-transform: uppercase;
+ margin-right: 5px
+
+}
+#menu
+{
+
+	min-height: 100vh;
+}
+#about
+{
+	min-height: 100vh;
+		background-image: url(../images/bg2.png);
+	width: 100%;
+	height: 100%;
+}
+.about
+{
+	text-align: left;
+
+}
+.who-we-are-top p::first-letter
+{
+color: #000;
+font-family: Roboto;
+font-size: 95px;
+font-weight: 700;
+float: left; /* Выравнивание по левому краю */
+margin: -18px 2px 0 -70px;
+text-transform: uppercase;
+
+}
+.who-we-are-top p
+{
+	margin-left: 30px;
+
+}
+.who-we-are
+{
+	width: 35%;
+
+	margin-left: 20%;
+	display: inline-block;
+
+}
+.bottom-who-we-are:after
+{
+	background: url(../images/who-we-are.png);
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	content:"";
+	display: block;
+	position: absolute;
+	left: -62px;
+ 	top: 0;
+
+}
+
+
+.who-we-are-top
+{
+	color: #000000;
+font-family: Roboto;
+font-size: 23px;
+font-weight: 700;
+/* Text style for "ho are we," */
+text-transform: uppercase;
+    text-align: left;
+
+}
+.bottom-who-we-are
+{
+	width: 78%;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 17px;
+	position: relative;
+	
+}
+.what-we-do
+{
+	width: 38%;
+	margin-top: 50px;
+	margin-left: 20%;
+	display: inline-block;
+	position: relative;
+}
+.what-we-do-content
+{
+	width: 78%;
+	font-size: 17px;
+	display: inline-block;
+}
+.what-we-do-right
+{
+	position: absolute;
+	right: 0;
+	vertical-align: middle;
+	border-left: 1px solid #58bcc4;
+}
+.what-we-do-right p
+{
+	color: #000000;
+	font-family: Roboto;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* Section Main*/
+.text__menu
+{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.from
+{
+	margin-left: 150px;
+}
+
+.button__portfolio
+{
+	text-align: center;
+	margin-top: 100px;
+	
+}
+.button__portfolio button
+{
+border-radius: 2px;
+border: 2px solid #fb5a48;
+background-color: #f2f2f2;
+padding: 15px 40px;
+text-transform: uppercase;
+
+}
+.button__portfolio button:hover
+{
+	border-radius: 2px;
+	background-color: #d03b27;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 15px 40px;
+}
+.img__menu
+{
+	text-align: center;
+}
+.img__menu img
+{
+	width: 50%;
+	display: inline-block;
+	
+}
+/* Section Price*/
+#price
+{
+	text-align: center;
+	min-height: 100vh;
+}
+.price__title
+{
+margin-top: 120px;
+margin-bottom: 100px;
+color: #000000;
+font-family: Roboto;
+font-size: 30px;
+font-weight: 900;
+
+text-transform: uppercase;
+}
+.price-list h2
+{
+	color: #58bcc4;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 36px;
+	text-transform: uppercase;
+    text-align: left;
+}
+.site-left
+{
+	display: block;
+	float: left;
+	text-align: left;
+
+	color: #010000;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+margin-left: 10%;
+}
+.site-right
+{
+	display: block;
+	float: right;
+	text-align: left;
+
+	color: #010000;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+margin-right: 10%;
+}
+.big-price
+{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.stroka-price
+{
+	text-align: center;
+	width: 100%;
+	margin-top: 40px;
+}
+.big-text
+{
+	
+}
+.second-line
+{
+	padding-bottom: 40px;
+	border-bottom: 1px solid #58bcc4;
+}
+
+/* Section Contact*/
+#contact
+{
+	min-height: 100vh;
+}
+#contact h2
+{
+	color: #000000;
+	font-family: Roboto;
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 36px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.contact__nav
+{
+	text-align: center;
+}
+.number
+{
+	color: #010000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	border-bottom: 1px solid #58bcc4;
+}
+.form
+{
+	color: #010000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-bottom: 1px solid #58bcc4;
+}
+.or
+{
+	color: #58bcc4;
+	font-family: Roboto;
+	font-size: 26px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.contact__info
+{
+	display: inline-block;
+	margin-top: 20%;
+	margin-left: 10%;
+	border-top: 1px solid #58bcc4;
+	width: 30%;
+}
+.contact__form
+{
+	display: inline-block;
+	margin-left: 140px;
+	border: 1px solid #58bcc4;
+	background-color: #f2f2f2;
+	padding: 30px;
+}
+.contact__form button
+{
+	border: 2px solid #58bcc4;
+	background-color: #f2f2f2;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+ #name
+ {
+ 	display: block;
+ 	margin-bottom: 10px;
+ 	border-bottom: 1px solid #f2f2f2; 
+ }
+/* Page portfolio*/
+	/* Section Main*/
+.portfolio__text h2
+{
+	text-align: center;
+}
+.marmi
+{
+	display: inline-block;
+	width: 100%;
+	background-image: url(../images/surfaces.jpg);
+	background-repeat: no-repeat; 
+	background-position: center;
+	margin-bottom: 20px;
+}
+.description__top
+{
+padding-top: 20px;
+padding-left: 10px;
+color: #000000;
+font-family: Roboto;
+font-size: 18px;
+text-transform: uppercase;
+}
+.description
+{
+	color: #000000;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: 900;
+
+}
+
+
+.button__view
+{
+	margin-top: 300px;
+}
+.button__view button
+{
+	border-radius: 2px;
+	background-color: #fffefe;
+	text-transform: uppercase;
+}
+.button__view button:hover
+{
+	border-radius: 2px;
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+}
+.attendify
+{
+	background-image: url(../images/attendify.png);
+}
+.eroshkin
+{
+	background-image: url(../images/eroshkin.jpg);
+}
+.ishtuki
+{
+	background-image: url(../images/ishtuki.png);	
+}
